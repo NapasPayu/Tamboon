@@ -1,5 +1,6 @@
 package com.napas.tamboon.di
 
+import com.napas.tamboon.charitylist.di.featureCharityListModule
 import com.napas.tamboon.data.model.di.modelModule
 import com.napas.tamboon.data.remote.di.createRemoteModule
 import com.napas.tamboon.data.repository.di.repositoryModule
@@ -9,5 +10,6 @@ val appModule = listOf(
     modelModule,
     createRemoteModule(),
     repositoryModule,
-    domainModule
+    domainModule,
+    featureCharityListModule
 )

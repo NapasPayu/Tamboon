@@ -16,6 +16,7 @@ dependencies {
     implementation project(Modules.domain)
     implementation project(Modules.commonRes)
     implementation project(Modules.commonUi)
+    implementation project(Modules.featureCharityList)
 
     implementation Deps.koin
     implementation Deps.appcompat

@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+apply from: '../../android_commons.gradle'
+
+dependencies {
+    implementation project(Modules.commonRes)
+    implementation project(Modules.commonUi)
+    implementation project(Modules.domain)
+    implementation project(Modules.navigation)
+
+    implementation Deps.appcompat
+    implementation Deps.coreKtx
+    implementation Deps.constraintLayout
+    implementation Deps.lifecycleViewModelKtx
+    implementation Deps.material
+    implementation Deps.koin
+    implementation Deps.koinViewModel
+    implementation Deps.navigationUi
+    implementation Deps.navigationFragment
+
+//    testImplementation project(Modules.commonTest)
+    testImplementation TestDeps.junit
+    testImplementation TestDeps.mockk
+    testImplementation TestDeps.coroutinesTest
+    testImplementation TestDeps.archCoreTest
+}
