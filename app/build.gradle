@@ -14,6 +14,7 @@ android {
 dependencies {
     implementation project(Modules.data)
     implementation project(Modules.domain)
+    implementation project(Modules.navigation)
     implementation project(Modules.commonRes)
     implementation project(Modules.commonUi)
     implementation project(Modules.featureCharityList)
