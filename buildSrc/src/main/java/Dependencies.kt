@@ -13,6 +13,7 @@ object Modules {
 }
 
 object Releases {
+    const val versionName = "1.0.0"
     const val versionCode = 1
     const val compileSdk = 29
     const val minSdk = 21
