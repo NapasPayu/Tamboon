@@ -1,2 +1,0 @@
-com/napas/tamboon/domain/BuildConfig.java
- com.napas.tamboon.domain.BuildConfig
