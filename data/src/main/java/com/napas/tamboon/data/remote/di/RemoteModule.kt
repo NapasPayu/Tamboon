@@ -1,5 +1,6 @@
 package com.napas.tamboon.data.remote.di
 
+import com.napas.tamboon.data.BuildConfig
 import com.napas.tamboon.data.remote.CharityService
 import com.napas.tamboon.data.remote.DonationService
 import okhttp3.OkHttpClient
@@ -8,7 +9,7 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-fun createRemoteModule(baseApiUrl: String) = module {
+fun createRemoteModule(baseApiUrl: String = BuildConfig.BASE_API_URL) = module {
     single {
         HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
     }
