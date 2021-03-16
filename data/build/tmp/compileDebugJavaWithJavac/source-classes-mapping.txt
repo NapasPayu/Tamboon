@@ -1,0 +1,2 @@
+com/napas/tamboon/data/BuildConfig.java
+ com.napas.tamboon.data.BuildConfig

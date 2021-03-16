@@ -1,0 +1,530 @@
+[
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_calendar_year.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_calendar_year.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/test_chip_zero_corner_radius.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/test_chip_zero_corner_radius.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/ed013478ee31086888f3d24d4bd59b74/transformed/media-1.0.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_dropdown.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_dropdown.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_alert_select_dialog_singlechoice.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_alert_select_dialog_singlechoice.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/view_auth.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/view_auth.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_calendar_months.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_calendar_months.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_picker_header_title_text.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_picker_header_title_text.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_alert_select_dialog_item.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_alert_select_dialog_item.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_picker_fullscreen.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_picker_fullscreen.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_calendar_horizontal.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_calendar_horizontal.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/custom_app_bar_coupons.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/custom_app_bar_coupons.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_recyclerview.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_recyclerview.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/ed013478ee31086888f3d24d4bd59b74/transformed/media-1.0.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/ed013478ee31086888f3d24d4bd59b74/transformed/media-1.0.0/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_calendar_vertical.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_calendar_vertical.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_information.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_information.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_widget_switch_compat.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_widget_checkbox.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_widget_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/dialog_unknow_error.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/dialog_unknow_error.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_alert_select_dialog_multichoice.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_alert_select_dialog_multichoice.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/test_toolbar_elevation.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/test_toolbar_elevation.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/expand_button.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/expand_button.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_calendar_day_of_week.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_calendar_day_of_week.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_picker_text_input_date_range.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_picker_text_input_date_range.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_navigation_item.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_tooltip.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_tooltip.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/ed013478ee31086888f3d24d4bd59b74/transformed/media-1.0.0/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/ed013478ee31086888f3d24d4bd59b74/transformed/media-1.0.0/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_widget_seekbar.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_widget_seekbar.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/c0159ac564045b071192c24846445ad6/transformed/core-1.3.2/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/text_view_without_line_height.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/text_view_without_line_height.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_alert_dialog_title.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_alert_dialog_title.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/view_background_dialog.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/view_background_dialog.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/custom_helpertext_image.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/custom_helpertext_image.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_calendar_month_navigation.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_calendar_month_navigation.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_picker_text_input_date.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_picker_text_input_date.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_category.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_category.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/image_frame.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/image_frame.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_picker_actions.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_picker_actions.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/dialog_net_work_error.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/dialog_net_work_error.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/test_toolbar_surface.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/test_toolbar_surface.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/test_toolbar.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/test_toolbar.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_search_view.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/view_pin.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/view_pin.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/test_toolbar_custom_background.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/test_toolbar_custom_background.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_picker_header_toggle.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_picker_header_toggle.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/text_view_with_line_height_from_layout.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/text_view_with_line_height_from_layout.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/ed013478ee31086888f3d24d4bd59b74/transformed/media-1.0.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/ed013478ee31086888f3d24d4bd59b74/transformed/media-1.0.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/c0159ac564045b071192c24846445ad6/transformed/core-1.3.2/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_picker_header_selection_text.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_picker_header_selection_text.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_cascading_menu_item_layout.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_alert_dialog.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/text_view_with_line_height_from_appearance.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/text_view_with_line_height_from_appearance.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/test_design_checkbox.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/test_design_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_layout_snackbar.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_calendar_day.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_calendar_day.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_category_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_category_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/text_view_with_line_height_from_style.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/text_view_with_line_height_from_style.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_picker_header_fullscreen.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_picker_header_fullscreen.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/text_view_with_theme_line_height.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/text_view_with_theme_line_height.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/dialog_full_screen.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/dialog_full_screen.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/test_reflow_chipgroup.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/test_reflow_chipgroup.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_calendar_days_of_week.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_calendar_days_of_week.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_template_media.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/ed013478ee31086888f3d24d4bd59b74/transformed/media-1.0.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_picker_dialog.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_widget_switch.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_widget_switch.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/custom_app_bar.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/custom_app_bar.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_text_input_end_icon.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_text_input_end_icon.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/item_spinner.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/item_spinner.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_information_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_information_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_alert_dialog_actions.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_alert_dialog_actions.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/test_design_radiobutton.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/test_design_radiobutton.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_calendar_month_labeled.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_calendar_month_labeled.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_layout_snackbar_include.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/custom_dialog.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/c0159ac564045b071192c24846445ad6/transformed/core-1.3.2/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/item_flag.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/item_flag.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_widget_seekbar_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_widget_seekbar_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_dropdown_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_dropdown_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/view_mobile.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/view_mobile.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/notification_media_action.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/ed013478ee31086888f3d24d4bd59b74/transformed/media-1.0.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_picker_header_dialog.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/item_flag_drop_down.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/common-ui/build/intermediates/packaged_res/myPpe/debug/layout/item_flag_drop_down.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_text_input_start_icon.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_text_input_start_icon.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_list_fragment.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_list_fragment.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/a4a667eb8a0a30332b68bbbe0cd8af15/transformed/appcompat-1.2.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/preference_dialog_edittext.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/d7e482eb3af845427e02fa0c760f5935/transformed/preference-1.1.1/res/layout/preference_dialog_edittext.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/test_action_chip.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/test_action_chip.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/layout/mtrl_calendar_month.xml",
+        "source": "/Users/Napas/.gradle/caches/transforms-3/f9f06075cd0086322bf7e2903fafcf56/transformed/material-1.2.0/res/layout/mtrl_calendar_month.xml"
+    }
+]

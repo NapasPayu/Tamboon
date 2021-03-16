@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_coupon"
+    app:startDestination="@+id/couponFragment">
+    <fragment
+        android:id="@+id/couponFragment"
+        android:name="com.lotuss.oneapp.coupon.CouponFragment">
+        <action
+            android:id="@+id/action_couponFragment_to_couponDetailFragment"
+            app:destination="@id/nav_coupon_detail">
+            <argument
+                android:name="id"
+                app:argType="string" />
+        </action>
+
+        <action
+            android:id="@+id/action_couponFragment_to_myRewardFragment"
+            app:destination="@id/nav_my_rewards" />
+        <action
+            android:id="@+id/action_couponFragment_to_verifyUserFrag"
+            app:destination="@+id/nav_verifyuser">
+            <argument
+                android:name="actionName"
+                app:argType="string" />
+        </action>
+        <deepLink app:uri="lotuss://lotuss.com/{country}/{lang}/coupons" />
+    </fragment>
+    <fragment
+        android:id="@+id/redemptionDetailFragment"
+        android:name="com.lotuss.oneapp.coupon.redemptiondetail.RedemptionDetailFragment">
+        <argument
+            android:name="redeemDetail"
+            app:argType="com.lotuss.oneapp.domain.model.RedeemDetail" />
+    </fragment>
+</navigation>

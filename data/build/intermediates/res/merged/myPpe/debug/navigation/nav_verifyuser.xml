@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_verifyuser"
+    app:startDestination="@id/verifyUserFragment">
+    <fragment
+        android:id="@+id/verifyUserFragment"
+        android:name="com.lotuss.oneapp.verify.VerifyUserFragment">
+        <argument
+            android:name="actionName"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_verifyPin_to_forgotPinFragment"
+            app:destination="@id/forgotPinFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPinFragment"
+        android:name="com.lotuss.oneapp.login.forgotpin.ForgotPinFragment">
+        <action
+            android:id="@+id/action_forgotPinFragment_to_setPinFragment"
+            app:destination="@id/nav_setpin">
+            <argument
+                android:name="amplifyToken"
+                app:argType="string" />
+            <argument
+                android:name="nationID"
+                app:argType="string"
+                android:defaultValue="" />
+            <argument
+                android:name="isForgotPin"
+                app:argType="boolean"
+                android:defaultValue="false" />
+
+            <argument
+                android:name="updateCurrent"
+                app:argType="string"
+                android:defaultValue="" />
+        </action>
+    </fragment>
+</navigation>

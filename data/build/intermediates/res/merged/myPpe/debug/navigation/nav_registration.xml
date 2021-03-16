@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_registration"
+    app:startDestination="@id/registrationFragment">
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.lotuss.oneapp.registration.RegistrationFragment">
+        <action
+            android:id="@+id/action_registrationFragment_to_hostFragment"
+            app:popUpTo="@id/nav_host" />
+        <action
+            android:id="@+id/action_registrationFragment_to_errorFragment"
+            app:destination="@id/errorFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_successFragment"
+            app:destination="@id/successFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="com.lotuss.oneapp.registration.success.SuccessFragment">
+
+        <action
+            android:id="@+id/action_successFragment_to_hostFragment"
+            app:popUpTo="@id/HostFragment" />
+
+        <action
+            android:id="@+id/action_successFragment_to_mobileFragment"
+            app:destination="@id/nav_auth">
+
+            <argument
+                android:name="mobileNumber"
+                app:argType="string"
+                android:defaultValue="" />
+
+        </action>
+
+        <argument
+            android:name="mobileNumber"
+            app:argType="string" />
+        <argument
+            android:name="isUpdated"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/errorFragment"
+        android:name="com.lotuss.oneapp.registration.error.ErrorFragment">
+        <action
+            android:id="@+id/action_errorFragment_to_hostFragment"
+            app:popUpTo="@id/HostFragment" />
+        <action
+            android:id="@+id/action_errorFragment_to_registrationFragment"
+            app:popUpTo="@id/registrationFragment" />
+    </fragment>
+
+</navigation>

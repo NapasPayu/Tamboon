@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_auth"
+    app:startDestination="@id/mobileNumberFragment">
+
+    <fragment
+        android:id="@+id/mobileNumberFragment"
+        android:name="com.lotuss.oneapp.login.mobile.MobileNumberFragment">
+        <action
+            android:id="@+id/action_mobileNumberFragment_to_hostFragment"
+            app:popUpTo="@id/HostFragment" />
+        <action
+            android:id="@+id/action_mobileNumberFragment_to_OTPFragment"
+            app:destination="@id/oTPFragment" />
+        <action
+            android:id="@+id/action_mobileNumberFragment_nav_registration"
+            app:destination="@id/nav_registration" />
+        <argument
+            android:name="mobileNumber"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="updateCurrent"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/oTPFragment"
+        android:name="com.lotuss.oneapp.login.otp.OTPFragment">
+        <argument
+            android:name="mobileNumber"
+            app:argType="string" />
+        <argument
+            android:name="updateCurrent"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_oTPFragment_to_pinFragment"
+            app:destination="@id/nav_setpin">
+            <argument
+                android:name="amplifyToken"
+                app:argType="string" />
+            <argument
+                android:name="nationID"
+                app:argType="string"
+                android:defaultValue="" />
+            <argument
+                android:name="updateCurrent"
+                app:argType="string"
+                android:defaultValue="" />
+        </action>
+        <action
+            android:id="@+id/action_oTPFragment_to_hostFragment"
+            app:popUpTo="@id/HostFragment" />
+        <action
+            android:id="@+id/action_oTPFragment_to_couponDetailFragment"
+            app:popUpTo="@id/couponDetailFragment" />
+
+    </fragment>
+
+</navigation>

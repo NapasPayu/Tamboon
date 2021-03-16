@@ -1,0 +1,8 @@
+apply plugin: 'com.android.library'
+apply from: '../android_commons.gradle'
+apply plugin: 'kotlin-parcelize'
+
+dependencies {
+    implementation Deps.koin
+    testImplementation TestDeps.junit
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/HostFragment">
+
+    <fragment
+        android:id="@+id/HostFragment"
+        android:name="com.lotuss.oneapp.host.HostFragment">
+        <action
+            android:id="@+id/action_hostFragment_to_nav_auth"
+            app:destination="@id/nav_auth" />
+        <action
+            android:id="@+id/action_hostFragment_to_nav_registration"
+            app:destination="@id/nav_registration" />
+        <action
+            android:id="@+id/action_hostFragment_to_nav_coupon"
+            app:destination="@id/nav_coupon" />
+        <action
+            android:id="@+id/action_hostFragment_to_nav_profile"
+            app:destination="@id/nav_profile">
+            <argument
+                android:name="name"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_hostFragment_to_nav_promotion"
+            app:destination="@id/nav_promotion" />
+        <action
+            android:id="@+id/action_hostFragment_to_nav_promotion_event"
+            app:destination="@id/nav_promotion_event">
+            <argument
+                android:name="promotionId"
+                android:defaultValue=""
+                app:argType="string" />
+        </action>
+
+        <action
+            android:id="@+id/action_hostFragment_to_nav_promotion_catalogue"
+            app:destination="@id/nav_promotion_catalogue">
+            <argument
+                android:name="promotionId"
+                android:defaultValue=""
+                app:argType="string" />
+        </action>
+
+        <action
+            android:id="@+id/action_hostFragment_to_settingFragment"
+            app:destination="@id/nav_appsetting" />
+        <action
+            android:id="@+id/action_hostFragment_to_nav_my_rewards"
+            app:destination="@id/nav_my_rewards" />
+        <action
+            android:id="@+id/action_hostFragment_to_nav_verifyuser"
+            app:destination="@id/nav_verifyuser">
+            <argument
+                android:name="actionName"
+                app:argType="string" />
+        </action>
+
+        <action
+            android:id="@+id/action_hostFragment_to_couponDetailFragment"
+            app:destination="@id/nav_coupon_detail">
+            <argument
+                android:name="id"
+                app:argType="string" />
+        </action>
+
+        <action
+            android:id="@+id/action_hostFragment_to_ProductListFragment"
+            app:destination="@id/nav_product_List">
+        </action>
+
+        <action
+            android:id="@+id/action_hostFragment_to_SearchFragment"
+            app:destination="@id/nav_shopping_search">
+        </action>
+
+
+    </fragment>
+
+    <include app:graph="@navigation/nav_shopping_search" />
+    <include app:graph="@navigation/nav_product_list" />
+    <include app:graph="@navigation/nav_auth" />
+    <include app:graph="@navigation/nav_registration" />
+    <include app:graph="@navigation/nav_coupon" />
+    <include app:graph="@navigation/nav_coupon_detail" />
+    <include app:graph="@navigation/nav_appsetting" />
+    <include app:graph="@navigation/nav_promotion" />
+    <include app:graph="@navigation/nav_promotion_event" />
+    <include app:graph="@navigation/nav_promotion_catalogue" />
+    <include app:graph="@navigation/nav_my_rewards" />
+    <include app:graph="@navigation/nav_setpin" />
+    <include app:graph="@navigation/nav_coupon_redeemdetail" />
+    <include app:graph="@navigation/nav_profile" />
+    <include app:graph="@navigation/nav_verifyuser" />
+
+</navigation>

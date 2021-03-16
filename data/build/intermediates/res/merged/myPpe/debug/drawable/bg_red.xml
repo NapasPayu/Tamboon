@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners
+        android:bottomRightRadius="@dimen/radius_primary_button"
+        android:topLeftRadius="@dimen/radius_primary_button"
+        android:bottomLeftRadius="@dimen/radius_primary_button"
+        android:topRightRadius="@dimen/radius_primary_button" />
+    <solid android:color="@color/crimson" />
+
+</shape>

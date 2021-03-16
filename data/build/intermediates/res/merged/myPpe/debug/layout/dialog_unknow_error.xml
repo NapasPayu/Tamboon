@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                 
+                           
+                                                                         
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/dialog_unknow_error_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <include layout="@layout/view_background_dialog" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_fullScreenAlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.3" />
+
+        <ImageView
+            android:id="@+id/icon_fullScreenAlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_unknow_error"
+            app:layout_constraintTop_toTopOf="@+id/guideline_fullScreenAlertDialog"
+            app:layout_constraintBottom_toBottomOf="@+id/guideline_fullScreenAlertDialog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_titleFullScreenAlertDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Fatal.Error.Default.title"
+            style="@style/TextBold"
+            android:textColor="@color/black_alpha_87"
+            android:textSize="@dimen/text_24sp"
+            android:layout_marginTop="@dimen/padding34"
+            android:layout_marginStart="@dimen/padding_side"
+            android:layout_marginEnd="@dimen/padding_side"
+            app:layout_constraintTop_toBottomOf="@+id/icon_fullScreenAlertDialog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_messageFullScreenAlertDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Fatal.Error.Default.message"
+            style="@style/TextBold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_16sp"
+            android:layout_marginTop="@dimen/padding20"
+            android:layout_marginStart="@dimen/padding_side"
+            android:layout_marginEnd="@dimen/padding_side"
+            app:layout_constraintTop_toBottomOf="@+id/txt_titleFullScreenAlertDialog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_side"
+            android:layout_marginEnd="@dimen/padding_side"
+            android:layout_marginBottom="@dimen/padding19"
+            android:tag="binding_1"                      
+            android:text="@string/Fatal.Error.Default.button1"
+            app:layout_constraintBottom_toTopOf="@+id/txt_callFullScreenAlertDialog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_callFullScreenAlertDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_side"
+            android:layout_marginEnd="@dimen/padding_side"
+            android:layout_marginBottom="@dimen/padding30"
+            android:tag="binding_2"                     
+            android:text="@string/Fatal.Error.Default.button2"
+            android:gravity="center"
+            android:textSize="@dimen/text_15sp"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

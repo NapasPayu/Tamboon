@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_my_rewards"
+    app:startDestination="@+id/myRewardsFragment">
+
+    <fragment
+        android:id="@+id/myRewardsFragment"
+        android:name="com.lotuss.oneapp.rewards.MyRewardsFragment">
+
+        <action
+            android:id="@+id/action_myRewardsFragment_to_nav_coupon"
+            app:destination="@id/nav_coupon" />
+        <action
+            android:id="@+id/action_myRewardsFragment_to_myRewardDetailFragment"
+            app:destination="@id/myRewardDetailFragment"
+            app:enterAnim="@anim/slideup"
+            app:popExitAnim="@anim/slidedown"></action>
+
+        <action
+            android:id="@+id/action_myRewardsFragment_to_redeemCouponDetailFragment"
+            app:destination="@id/nav_coupon_redeem"
+            app:enterAnim="@anim/slideup"
+            app:popExitAnim="@anim/slidedown">
+            <argument
+                android:name="redeemDetail"
+                app:argType="com.lotuss.oneapp.domain.model.RedeemDetail" />
+        </action>
+
+        <action
+            android:id="@+id/action_myRewardsFragment_to_verifyUserFragment"
+            app:destination="@+id/nav_verifyuser">
+            <argument
+                android:name="actionName"
+                app:argType="string"
+                android:defaultValue="" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/myRewardDetailFragment"
+        android:name="com.lotuss.oneapp.rewards.detail.VoucherFragment">
+        <argument
+            android:name="voucher"
+            app:argType="com.lotuss.oneapp.domain.model.Voucher" />
+    </fragment>
+
+
+</navigation>

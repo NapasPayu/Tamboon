@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_promotion_event"
+    app:startDestination="@id/promotionEventFragment">
+    <fragment
+        android:id="@+id/promotionEventFragment"
+        android:name="com.lotuss.oneapp.promotion.detail.event.EventFragment">
+
+        <argument
+            android:name="promotionId"
+            android:defaultValue=""
+            app:argType="string" />
+        <action
+            android:id="@+id/action_promotionEventFragment_to_promotionImageFullScreenFragment"
+            app:destination="@id/promotionImageFullScreenFragment" />
+        <!--        <deepLink app:uri="lotuss://lotuss.com/{country}/{lang}/promotions/{promotionId}?types=event"/>-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/promotionImageFullScreenFragment"
+        android:name="com.lotuss.oneapp.promotion.detail.event.fullscreen.FullScreenFragment">
+        <argument
+            android:name="detail"
+            app:argType="com.lotuss.oneapp.domain.model.PromotionDetail" />
+        <argument
+            android:name="position"
+            app:argType="integer"
+            android:defaultValue="0" />
+
+    </fragment>
+
+</navigation>

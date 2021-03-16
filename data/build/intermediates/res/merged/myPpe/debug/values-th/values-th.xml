@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="PIN.Error.Message">
+        <item quantity="other">คุณกรอกรหัส ผิดเกินจำนวนที่กำหนด กรุณาลองใหม่อีกครั้งใน %d นาที</item>
+    </plurals>
+    <string name="AppSecurity.SuspiciousDevice.Message">เพื่อความปลอดภัยของคุณ การดัดแปลงระบบหรือเครื่องจะไม่สามารถเข้าใช้งานแอปพลิเคชันของเราได้</string>
+    <string name="AppSecurity.SuspiciousDevice.Title">การเจลเบรค / รูท</string>
+    <string name="AppUpdates.newVersionAvailable.Button">อัปเดตตอนนี้</string>
+    <string name="AppUpdates.newVersionAvailable.Message">เราได้ปรับปรุงแอปของเราเพื่อให้ประสบการณ์ของคุณราบรื่นและเร็วขึ้น อัพเดตเลย!</string>
+    <string name="AppUpdates.newVersionAvailable.Title">อัปเดตเป็นเวอร์ชันล่าสุด</string>
+    <string name="AppUpdates.updateAvailable.Button">ใช่,ติดตั้ง</string>
+    <string name="AppUpdates.updateAvailable.Message">เพื่อการใช้งานที่ดียิ่งขึ้น เราแนะนำให้อัปเดตเวอร์ชันล่าสุด สนใจการอัปเดตหรือไม่?</string>
+    <string name="AppUpdates.updateAvailable.Title">แอปมีการอัปเดตใหม่</string>
+    <string name="Authenticate.Biometric.Method.faceID">สแกนใบหน้า</string>
+    <string name="Authenticate.Biometric.Method.touchID">ยืนยันตัวตน</string>
+    <string name="Authenticate.Biometric.ReasonForAccess.PermissionAlert.Button">ไปที่การตั้งค่า</string>
+    <string name="Authenticate.Biometric.ReasonForAccess.PermissionAlert.Message">กรุณาตรวจสอบระบบไบโอเมตริกซ์(ลายนิ้วมือ/ใบหน้า) ในอุปกรณ์ของคุณ แล้วลองอีกครั้ง</string>
+    <string name="Authenticate.Biometric.ReasonForAccess.PermissionAlert.Title">ไม่สามารถเข้าถึงการพิสูจน์ตัวตนแบบไบโอเมตริกซ์ (ลายนิ้วมือ/ใบหน้า)</string>
+    <string name="Authenticate.Biometric.ReasonForAccess.enableForFuture.faceID">คุณสามารถเข้าระบบได้ง่ายและรวดเร็ว โดยใช้การสแกนใบหน้า</string>
+    <string name="Authenticate.Biometric.ReasonForAccess.enableForFuture.touchID">คุณสามารถเข้าระบบได้ง่ายและรวดเร็ว โดยใช้ลายนิ้วมือ</string>
+    <string name="Coupon.MyCoupons.CouponDetails.StartDate">1 ม.ค. %d</string>
+    <string name="Coupons.Catalogue.Action.Charity.Redeem">แลกแต้ม</string>
+    <string name="Coupons.Catalogue.Action.LuckyDraw.Redeem">แลกแต้ม</string>
+    <string name="Coupons.Catalogue.Action.Redeem">แลกคูปอง</string>
+    <string name="Coupons.Catalogue.Action.Redeem.Back1">ดูโปรโมชั่นอื่นๆ</string>
+    <string name="Coupons.Catalogue.Action.Redeem.Back2">กลับสู่หน้าหลัก</string>
+    <string name="Coupons.Catalogue.Action.Redeem.Error.Button">ตกลง</string>
+    <string name="Coupons.Catalogue.Action.Redeem.Error.Message">คุณเพิ่งพลาดคูปองใบสุดท้าย ยังมีคูปองและสิทธิพิเศษอีกมากมาย ให้คุณเพลิดเพลินรอคุณอยู่</string>
+    <string name="Coupons.Catalogue.Action.Redeem.Error.Title">คูปองหมดแล้ว</string>
+    <string name="Coupons.Catalogue.Conditions">เงื่อนไข</string>
+    <string name="Coupons.Catalogue.Details">รายละเอียด</string>
+    <string name="Coupons.Catalogue.Empty">สิทธิพิเศษใหม่ๆ กำลังจะมาเร็วๆ นี้</string>
+    <string name="Coupons.Catalogue.GroupTitle">แลกแต้ม</string>
+    <string name="Coupons.Catalogue.RedeemedCoupon.Action.OpenCoupon">เปิดคูปอง</string>
+    <string name="Coupons.Catalogue.RedeemedCoupon.Success.Title">เมื่อคุณเลือก \"ใช้คูปองตอนนี้\" คูปองจะเริ่มนับถอยหลังตามกำหนดเวลา ถ้าคุณเลือก \" เก็บไว้ใช้ครั้งหน้า\" คูปองที่กดแลก จะถูกบันทึกไว้ใน \'คูปองของฉัน\'</string>
+    <string name="Coupons.Catalogue.Title">แลกแต้ม</string>
+    <string name="Coupons.MyCoupons.Brand">เทสโก้ โลตัส</string>
+    <string name="Coupons.MyCoupons.Confirmation.StaffConfirm.Button">ยืนยันสิทธิ์</string>
+    <string name="Coupons.MyCoupons.Confirmation.StaffConfirm.Notice">กรุณาให้พนักงานยืนยันการใช้สิทธิ์</string>
+    <string name="Coupons.MyCoupons.Confirmation.UseNow.Button">ใช้ตอนนี้</string>
+    <string name="Coupons.MyCoupons.CouponDetails.Barcode">บาร์โค้ด</string>
+    <string name="Coupons.MyCoupons.CouponDetails.Charity.Message">ขอบคุณสำหรับการ %s</string>
+    <string name="Coupons.MyCoupons.CouponDetails.Charity.Title">ขอบคุณ</string>
+    <string name="Coupons.MyCoupons.CouponDetails.Image1">คูปองส่วนลด</string>
+    <string name="Coupons.MyCoupons.CouponDetails.Image2">คูปองส่วนลด</string>
+    <string name="Coupons.MyCoupons.CouponDetails.LuckyDraw.Message">ขอบคุณที่ร่วมลุ้นสนุกกับเรา ติดตามผลประกาศรางวัลได้ภายใน %d</string>
+    <string name="Coupons.MyCoupons.CouponDetails.LuckyDraw.Title">ขอบคุณ</string>
+    <string name="Coupons.MyCoupons.CouponDetails.PriceDiscount.Title">ส่วนลด</string>
+    <string name="Coupons.MyCoupons.CouponDetails.QR">QR โค้ด</string>
+    <string name="Coupons.MyCoupons.CouponDetails.Title">คูปอง</string>
+    <string name="Coupons.MyCoupons.CouponList.Available">จำนวนสิทธิ์</string>
+    <string name="Coupons.MyCoupons.CouponList.Image">คูปองส่วนลด*</string>
+    <string name="Coupons.MyCoupons.CouponList.Image2">ส่วนลด*</string>
+    <string name="Coupons.MyCoupons.CouponList.Soldout">สิทธิ์หมด</string>
+    <string formatted="false" name="Coupons.MyCoupons.CouponList.Title">฿%s %s</string>
+    <string name="Coupons.MyCoupons.CouponList.Unlimited">ไม่จำกัดจำนวน*</string>
+    <string name="Coupons.MyCoupons.Date">หมดเขต:</string>
+    <string name="Coupons.MyCoupons.Date.Image">หมดเขต:</string>
+    <string name="Coupons.MyCoupons.Empty">คุณไม่มีคูปองในขณะนี้ เปิดดูสิทธิพิเศษที่คุณชื่นชอบได้เลย</string>
+    <string name="Coupons.MyCoupons.Expire">ขออภัยคุณไม่สามารถใช้คูปองนี้ได้ เนื่องจากไม่ได้ทำรายการตามเวลากำหนด</string>
+    <string name="Coupons.MyCoupons.Notice">หมายเหตุ: คูปองจะเริ่มนับถอยหลัง เมื่อคลิ๊ก \"ใช้ตอนนี้\"</string>
+    <string name="Coupons.MyCoupons.Redeem.Confirmation">สำเร็จ</string>
+    <string name="Coupons.MyCoupons.Redeem.Confirmation.Button1">ใช้คูปองตอนนี้</string>
+    <string name="Coupons.MyCoupons.Redeem.Confirmation.Button2">เก็บไว้ใช้ครั้งหน้า</string>
+    <string name="Coupons.MyCoupons.Redeem.Confirmation.Message">การแลกแต้มสำเร็จ คูปองที่กดแลกจะถูกบันทึกไว้ใน \'คูปองของฉัน\'</string>
+    <string name="Coupons.MyCoupons.Redeem.Countdown.Message">เมื่อคุณเลือก \"ใช้คูปองตอนนี้\" คูปองจะเริ่มนับถอยหลังตามเวลาที่กำหนด</string>
+    <string name="Coupons.MyCoupons.Redeem.Countdown.Title">คูปองนี้มีกำหนดเวลาในการใช้งาน</string>
+    <string name="Coupons.MyCoupons.Title">คูปองของฉัน</string>
+    <string name="Coupons.MyCoupons.VoucherList.Image">คูปองเงินสด*</string>
+    <string formatted="false" name="Coupons.MyCoupons.VoucherList.Title">คูปองเงินสด มูลค่า %s%s</string>
+    <string name="Coupons.PointBalance">แต้มสะสม</string>
+    <string name="Coupons.RedeemPoints">แลกคะแนน</string>
+    <string name="Coupons.RedeemPoints.CouponDetails.CampaignCoolDown">ขออภัย คุณได้กดรับแคมเปญนี้ไปแล้ว กรุณารอกดรับใหม่อีกครั้งภายหลัง</string>
+    <string name="Coupons.RedeemPoints.CouponDetails.CampaignExceedLimit">คุณได้ใช้สิทธิพิเศษนี้ครบตามจำนวนที่กำหนดแล้ว</string>
+    <string name="Coupons.RedeemPoints.CouponDetails.CampaignExpire">ขออภัย สิทธิพิเศษในการใช้สินค้า/บริการนี้ หมดอายุแล้ว</string>
+    <string name="Coupons.RedeemPoints.CouponDetails.CampaignNotStart">สินค้านี้ไม่สามารถรีดีมได้</string>
+    <string name="Coupons.RedeemPoints.CouponDetails.CampaignPermissionInvalid">คุณไม่ได้รับสิทธิ์ในแคมเปญนี้</string>
+    <string name="Coupons.RedeemPoints.CouponDetails.CampaignSoldOut">ขออภัย สิทธิพิเศษในการใช้สินค้า/บริการนี้ มีผู้ใช้สิทธิ์เต็มจำนวนแล้ว</string>
+    <string name="Coupons.RedeemPoints.CouponDetails.ConditionIsInvalid">คุณต้องทำตามเงื่อนไขที่ระบุไว้ใน Campaign นี้ก่อนจึงสามารถกดรับได้ กรุณาอ่านเพิ่มเติมในรายละเอียด</string>
+    <string name="Coupons.RedeemPoints.CouponDetails.PointZero">คุณมีจำนวนแต้มไม่เพียงพอสำหรับการรับสิทธิพิเศษนี้</string>
+    <string name="Coupons.RedeemPoints.CouponDetails.SponsorOnly">แคมเปญนี้ไม่สามารถกดรับได้</string>
+    <string name="Coupons.RedeemPoints.CouponDetails.VersionExpired">คุณไม่สามารถรับสิทธิ์ได้ เนื่องจากเป็นเวอร์ชั่นเก่า กรุณาอัพเดตเวอร์ชั่นใหม่เพื่อรับสิทธิ์ หากคุณใช้เวอร์ชั่นใหม่ล่าสุดแล้ว กรุณา Logout และ Login ใหม่</string>
+    <string name="Coupons.Title">คูปอง</string>
+    <string name="Coupons.TransferPoints.Button">ดำเนินการต่อ</string>
+    <string name="Coupons.TransferPoints.CCbalance">แต้มคลับการ์ดของคุณ</string>
+    <string name="Coupons.TransferPoints.Confirmation.Button.Cancel">ยกเลิก</string>
+    <string name="Coupons.TransferPoints.Confirmation.Button.Confirm">โอนแต้ม</string>
+    <string name="Coupons.TransferPoints.Confirmation.Message">โอนเข้าบัญชี</string>
+    <string name="Coupons.TransferPoints.Confirmation.Message.CCpoints">โอนแต้มคลับการ์ด</string>
+    <string name="Coupons.TransferPoints.Confirmation.Message.Receivingpoints">คะแนนที่จะได้รับ</string>
+    <string name="Coupons.TransferPoints.Confirmation.Success.Message">คะแนนที่แลกจะถูกโอนเข้าบัญชีสมาชิก ภายใน 4 วันทำการ</string>
+    <string name="Coupons.TransferPoints.Confirmation.Success.Title">สำเร็จ</string>
+    <string name="Coupons.TransferPoints.Confirmation.Title">ยืนยันการโอนแต้ม</string>
+    <string formatted="false" name="Coupons.TransferPoints.ConvertionRate">คลับการ์ด %i แต้ม = %d %i แต้ม</string>
+    <string name="Coupons.TransferPoints.MemberID">กรุณากรอกหมายเลขสมาชิก %d</string>
+    <string name="Coupons.TransferPoints.MemberID.Input.HelpText">ตัวอย่าง 2230025535</string>
+    <string name="Coupons.TransferPoints.MemberID.Input.Placeholder">กรุณาระบุหมายเลขสมาชิก</string>
+    <string name="Coupons.TransferPoints.MemberID.Input.Title">หมายเลขสมาชิก</string>
+    <string name="Coupons.TransferPoints.PointEstimate">แต้มที่สามารถแลกได้</string>
+    <string name="Coupons.TransferPoints.Receive">คะแนนที่ได้รับ</string>
+    <string name="Coupons.TransferPoints.To">คะแนนที่ต้องการแลก</string>
+    <string name="EnterPIN.ForgotPIN.Button">ลืมรหัส?</string>
+    <string name="EnterPIN.Title">กรอกรหัส</string>
+    <string name="EnterPIN.body">กรุณากรอกรหัส 6 หลัก เพื่อยืนยันความปลอดภัย</string>
+    <string name="Error.Default.message">กรุณาลองใหม่อีกครั้งค่ะ</string>
+    <string name="Error.Default.title">ขออภัย มีบางอย่างผิดพลาด</string>
+    <string name="Error.Message.serviceUnavailable">ระบบขัดข้อง กรุณาลองใหม่อีกครั้งค่ะ</string>
+    <string name="Error.Network.button">โหลดอีกครั้ง</string>
+    <string name="Error.Network.message">กรุณาตรวจสอบการเชื่อมต่อและลองใหม่อีกครั้งค่ะ</string>
+    <string name="Error.Network.title">เครือข่ายขัดข้อง</string>
+    <string name="Fatal.Error.Default.button1">โอเค</string>
+    <string name="Fatal.Error.Default.button2">โทรหาเรา</string>
+    <string name="Fatal.Error.Default.message">ใจเย็นๆ หายใจเข้าลึกๆ \n
+กรุณาลองโหลดใหม่อีกครั้ง หากคุณยังพบปัญหา ติดต่อเรา เราพร้อมช่วยเหลือคุณค่ะ</string>
+    <string name="Fatal.Error.Default.title">ขออภัย มีบางอย่างผิดพลาดเกิดขึ้น</string>
+    <string name="ForgetPIN.Error.Button1">รับทราบ</string>
+    <string name="ForgetPIN.Error.ExceededLimit.message">คุณกรอกหมายเลขบัตรประชาชนเกินจำนวนที่กำหนด กรุณาลองใหม่อีกครั้งใน %d นาที</string>
+    <string name="ForgetPIN.Error.Maxlimit.message">คุณกรอกข้อมูลผิด กรุณาลองใหม่อีกครั้งหรือติดต่อคอลเซ็นเตอร์</string>
+    <string name="ForgetPIN.Error.message">ข้อมูลไม่ถูกต้อง กรุณาลองใหม่อีกครั้งหรือติดต่อคอลเซ็นเตอร์</string>
+    <string name="ForgetPIN.Error.title">หมายเลขบัตรประจำตัวประชาชนไม่ถูกต้อง</string>
+    <string name="ForgetPIN.Verification">ลืมรหัส</string>
+    <string name="ForgetPIN.Verification.CallCenter">ติดต่อคอลเซ็นเตอร์</string>
+    <string name="ForgetPIN.Verification.Details">กรอกหมายเลขบัตรประชาชน</string>
+    <string name="General.Currency">฿</string>
+    <string name="General.Currency.RM">RM</string>
+    <string name="General.Currency.THB">฿</string>
+    <string name="General.Edit">แก้ไข</string>
+    <string name="General.Filters">ตัวกรอง</string>
+    <string name="General.LeavePage.Confirmation">คุณต้องการออกจากหน้านี้?</string>
+    <string name="General.NoResults">ไม่พบผลลัพธ์</string>
+    <string name="General.Points">คะแนน</string>
+    <string name="General.Save">บันทึก</string>
+    <string name="General.Update.Title">แอปเวอร์ชั่นใหม่ พร้อมให้คุณได้อัปเดตแล้ว!</string>
+    <string name="General.ViewAll">ดูทั้งหมด</string>
+    <string name="General.Voucher">คูปองเงินสด</string>
+    <string name="General.activate">เริ่มใช้งาน</string>
+    <string name="General.alertDefaultCancel">ยกเลิก</string>
+    <string name="General.alertDefaultOk">ตกลง</string>
+    <string name="General.back">ย้อนกลับ</string>
+    <string name="General.cancel">ยกเลิก</string>
+    <string name="General.close">ปิด</string>
+    <string name="General.continue">ดำเนินการต่อ</string>
+    <string name="General.copyright">© ลิขสิทธิ์ของเอก-ชัย ดีสทริบิวชั่น ซิสเทม จำกัด %i</string>
+    <string name="General.delete">ลบ</string>
+    <string name="General.done">เสร็จ</string>
+    <string name="General.later">ไว้ครั้งถัดไป</string>
+    <string name="General.next">ถัดไป</string>
+    <string name="General.no">ไม่ใช่</string>
+    <string name="General.notApplicable">ไม่สามารถระบุได้</string>
+    <string name="General.notNow">ไม่ใช่ตอนนี้</string>
+    <string name="General.ok">ตกลง</string>
+    <string name="General.skip">ข้าม</string>
+    <string name="General.tapToRetry">เกิดข้อผิดพลาด แตะเพื่อลองใหม่อีกครั้ง</string>
+    <string name="General.tryAgain">ลองใหม่อีกครั้งค่ะ</string>
+    <string name="General.yes">ใช่</string>
+    <string formatted="false" name="HelpAndSupport.appVersion">เวอร์ชันแอป: %s (%s) %s
+
+© ลิขสิทธิ์ของเอก-ชัย ดีสทริบิวชั่น ซิสเทม จำกัด %d</string>
+    <string name="Home.Welcome.message">สวัสดีค่ะ, %s</string>
+    <string name="Home.notClubcardMember">ยังไม่ได้เป็นสมาชิกคลับการ์ดใช่ไหม?</string>
+    <string name="Home.registerHere">สมัครสมาชิกคลิกเลย</string>
+    <string name="Home.title">หน้าแรก</string>
+    <string name="Login.Alert.DuplicatePhoneNumber.Message">เบอร์มือถือนี้มีหลายบัญชี กรุณาติดต่อคอลเซ็นเตอร์</string>
+    <string name="Login.Alert.DuplicatePhoneNumber.Title">เบอร์มือถือซ้ำ</string>
+    <string name="Login.Alert.InvalidPhoneNumberParameter.Message">รูปแบบเบอร์โทรศัพท์ไม่ถูกต้อง กรุณาตรวจสอบใหม่ และลองอีกครั้งค่ะ</string>
+    <string name="Login.Alert.OTP.SessionExpiredError.Message">รหัส OTP คุณได้หมดอายุไปแล้ว กรุณากดเพื่อส่งOTPใหม่ก่อนลองอีกครั้ง</string>
+    <string name="Login.Alert.OTP.SessionExpiredError.Title">รหัส OTP หมดอายุ</string>
+    <string name="Login.Alert.OTP.ValidationError.Message">กรุณาตรวจสอบรหัส OTP ของคุณอีกครั้งในกล่องข้อความ SMS และลองอีกครั้งค่ะ</string>
+    <string name="Login.Alert.OTP.ValidationError.Title">รหัส OTP ไม่ถูกต้อง</string>
+    <string name="Login.Alert.TokenExpired.Message">คุณทำรายการเกินระยะเวลาที่กำหนด</string>
+    <string name="Login.Alert.Unauthorize.Message">เกิดข้อผิดพลาดบางประการ กรุณาลองใหม่อีกครั้ง</string>
+    <string name="Login.Alert.UserNotFound.Action.Cancel">ยกเลิก</string>
+    <string name="Login.Alert.UserNotFound.Action.Register">สมัครเลย!</string>
+    <string name="Login.Alert.UserNotFound.Message">ไม่พบบัญชีของเบอร์มือถือนี้ กรุณาใช้หมายเลขอื่น หรือสร้างบัญชีใหม่ค่ะ</string>
+    <string name="Login.Alert.UserNotFound.Title">ไม่พบบัญชีผู้ใช้งาน</string>
+    <string name="Login.CountryFlag.Selection.TH">ไทย</string>
+    <string name="Login.CountryFlag.Selections.MY">มาเลเซีย</string>
+    <string name="Login.CountryFlag.Selections.SG">สิงคโปร์</string>
+    <string name="Login.CreatePIN.Alert.InvalidParams.Message">รหัสไม่ถูกต้อง กรุณาใช้รูปแบบที่ถูกต้อง (ตัวเลข 0-9)</string>
+    <string name="Login.CreatePIN.Alert.PINMismatch.Message">กรุณากรอกรหัส 6 หลักให้ตรงกัน</string>
+    <string name="Login.CreatePIN.Alert.PINMismatch.Title">รหัสไม่ตรงกัน</string>
+    <string name="Login.CreatePIN.Alert.UnparsabledJson.Message">ขออภัย พบบางอย่างผิดพลาด กรุณาลองอีกครั้งในเวลาถัดไปค่ะ</string>
+    <string name="Login.VerifyPIN.Alert.InvalidParams.Message">รหัสไม่ตรงกัน</string>
+    <string name="Login.confirmPinCode">ยืนยันรหัส</string>
+    <string name="Login.confirmPinCode.body">กรอกรหัส 6 หลักเพื่อยืนยัน</string>
+    <string name="Login.mobileNumber">เบอร์มือถือ</string>
+    <string name="Login.mobileNumber.body">เราจะส่งรหัส OTP ไปที่มือถือคุณ</string>
+    <string name="Login.setPinCode">ตั้งรหัส</string>
+    <string name="Login.setPinCode.Helptext">*เพื่อความปลอดภัย กรุณาตั้งรหัสที่คาดเดาได้ยาก</string>
+    <string name="Login.setPinCode.body">กรุณาจำรหัส เพื่อใช้งานในครั้งถัดไป</string>
+    <string name="Login.verification">ยืนยันตัวตน</string>
+    <string name="Login.verification.body">กรอกรหัส OTP ที่ได้รับจากมือถือของคุณ</string>
+    <string name="Login.verification.resendOtp">ส่งรหัส OTP อีกครั้ง</string>
+    <string name="MyProfile.AppSettings">การตั้งค่า</string>
+    <string name="MyProfile.AppSettings.AboutClubcard">เกี่ยวกับ เทสโก้ โลตัส</string>
+    <string name="MyProfile.AppSettings.AppFeedback">คำติชมของแอป</string>
+    <string name="MyProfile.AppSettings.BiometricEnable.FaceID">สแกนใบหน้าเพื่อเข้าสู่ระบบ</string>
+    <string name="MyProfile.AppSettings.BiometricEnable.TouchID">สแกนนิ้วเพื่อเข้าสู่ระบบ</string>
+    <string name="MyProfile.AppSettings.ContactUs">คอลเซ็นเตอร์</string>
+    <string name="MyProfile.AppSettings.FAQ">คำถามที่พบบ่อย</string>
+    <string name="MyProfile.AppSettings.Language">ภาษา</string>
+    <string name="MyProfile.AppSettings.Language.en">English</string>
+    <string name="MyProfile.AppSettings.Language.my">Bahasa Malaysia</string>
+    <string name="MyProfile.AppSettings.Language.th">ไทย</string>
+    <string name="MyProfile.AppSettings.PrivacyPolicy">นโยบายความเป็นส่วนตัว</string>
+    <string name="MyProfile.AppSettings.TermOfUse">เงื่อนไขการใช้บริการ</string>
+    <string name="MyProfile.Logout"><font color="#red">ลงชื่อออก</font></string>
+    <string name="MyProfile.Logout.Message">ลงชื่อออก?</string>
+    <string name="MyProfile.Logout.Title">ลงชื่อออก</string>
+    <string name="MyProfile.MemberDetails">ข้อมูลสมาชิก</string>
+    <string name="MyProfile.MemberDetails.Address">ที่อยู่</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine1">บ้านเลขที่</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine1.ErrorText">ไม่เกิน 100 ตัวอักษร</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine1.HelpText">กรอกบ้านเลขที่/หมู่บ้าน/อาคาร</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine1.Placeholder">ตัวอย่าง 629/1</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine2">หมู่/ซอย/ถนน</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine2.ErrorText">ไม่เกิน 100 ตัวอักษร</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine2.HelpText">กรอกหมู่/ซอย/ถนน</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine2.Placeholder">ตัวอย่าง หมู่4 ซอย นวมินทร์86 ถนน นวมินทร์</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine3">แขวง/ตำบล</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine3.ErrorText">กรุณาเลือกข้อมูลจากตัวเลือกที่กำหนด</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine3.Placeholder">เลือกแขวง/ตำบล</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine4">เขต/อำเภอ</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine4.ErrorText">กรุณาเลือกข้อมูลจากตัวเลือกที่กำหนด</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine4.Placeholder">เลือกเขต/อำเภอ</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine5">จังหวัด</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine5.ErrorText">กรุณาเลือกข้อมูลจากตัวเลือกที่กำหนด</string>
+    <string name="MyProfile.MemberDetails.Address.AddressLine5.Placeholder">เลือกจังหวัด</string>
+    <string name="MyProfile.MemberDetails.Address.Edit">ที่อยู่*</string>
+    <string name="MyProfile.MemberDetails.Address.Postcode">รหัสไปรษณีย์</string>
+    <string name="MyProfile.MemberDetails.Address.Postcode.ErrorText">เฉพาะตัวเลข (0-9) และไม่เกิน 5 หลัก</string>
+    <string name="MyProfile.MemberDetails.Address.Postcode.HelpText">กรุณาใส่รหัสไปรษณีย์ของคุณ</string>
+    <string name="MyProfile.MemberDetails.Address.Postcode.Placeholder">ตัวอย่าง 10250</string>
+    <string name="MyProfile.MemberDetails.BasicInfo">ข้อมูลส่วนตัว</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.DateOfBirth">วันเดือนปีเกิด</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.DateOfBirth.Edit">วันเดือนปีเกิด*</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.DateOfBirth.ErrorText">เฉพาะตัวเลข (0-9) และไม่เกิน 10 หลัก</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.DateOfBirth.HelpText">กรุณาใส่วันเดือนปีเกิดของคุณ</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.DateOfBirth.Placeholder">ตัวอย่าง 19 พฤษภาคม 2539</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Firstname">ชื่อ</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Firstname.Edit">ชื่อ*</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Firstname.ErrorText">เฉพาะตัวอักษรเท่านั้น (สูงสุด 30 ตัวอักษร)</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Firstname.HelpText">กรุณาใส่ชื่อของคุณ</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Firstname.Placeholder">ตัวอย่าง พิทักษ์</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Gender">เพศ</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Gender.Edit">Gender</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Gender.Female">หญิง</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Gender.Male">ชาย</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Lastname">นามสกุล</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Lastname.Edit">นามสกุล*</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Lastname.ErrorText">เฉพาะตัวอักษรเท่านั้น (สูงสุด 30 ตัวอักษร)</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Lastname.HelpText">กรุณาใส่นามสกุลของคุณ</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Lastname.Placeholder">ตัวอย่าง ภักดีกุล</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Race">เชื้อชาติ</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Race.Edit">Race</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Title">คำนำหน้า</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Title.Edit">คำนำหน้า*</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Title.Options.Miss">นางสาว</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Title.Options.Mr">นาย</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Title.Options.Mrs">นาง</string>
+    <string name="MyProfile.MemberDetails.BasicInfo.Title.Options.Ms">นางสาว</string>
+    <string name="MyProfile.MemberDetails.ContactInfo">ข้อมูลติดต่อ</string>
+    <string name="MyProfile.MemberDetails.ContactInfo.Email">อีเมล</string>
+    <string name="MyProfile.MemberDetails.ContactInfo.Email.Edit">อีเมล*</string>
+    <string name="MyProfile.MemberDetails.ContactInfo.Email.ErrorText">เฉพาะอีเมลที่มีเครื่องหมาย @ เท่านั้น</string>
+    <string name="MyProfile.MemberDetails.ContactInfo.Email.HelpText">กรุณาใส่อีเมลของคุณ</string>
+    <string name="MyProfile.MemberDetails.ContactInfo.Email.Placeholder">ตัวอย่าง Ek-Chai@outlook.com</string>
+    <string name="MyProfile.MemberDetails.ContactInfo.MobileNumber">เบอร์มือถือ</string>
+    <string name="MyProfile.MemberDetails.Information.HelpText">เพื่อความปลอดภัยและความเป็นส่วนตัวของคุณ ข้อมูลนี้ไม่สามารถแก้ไขได้ กรุณาติดต่อ คอลเซ็นเตอร์</string>
+    <string name="MyProfile.MemberDetails.NationalID">หมายเลขบัตรประชาชน</string>
+    <string name="MyProfile.MemberDetails.NationalID.ErrorText">รูปแบบข้อมูลไม่ถูกต้อง</string>
+    <string name="MyProfile.MemberDetails.NationalID.HelpText">คุณไม่สามารถแก้ไขข้อมูลนี้หลังจากทำการบันทึก</string>
+    <string name="MyProfile.MemberDetails.NationalID.Placeholder">ตัวอย่าง 1100935464556 / AD18745443</string>
+    <string name="MyProfile.Title">โปรไฟล์ของฉัน</string>
+    <string name="MyProfile.TransactionHistory">ประวัติการใช้งาน</string>
+    <string name="MyProfile.TransactionHistory.Burn">ใช้แต้ม</string>
+    <string name="MyProfile.TransactionHistory.Earn">รับแต้ม</string>
+    <string name="MyProfile.TransactionHistory.Empty">ไม่มีประวัติการใช้งาน</string>
+    <string name="MyProfile.TransactionHistory.Fail">พบข้อผิดพลาด
+ดึงลงเพื่อโหลดอีกครั้ง</string>
+    <string name="MyProfile.TransactionHistory.PointPeriod">แต้มสะสมในรอบนี้</string>
+    <string name="MyProfile.TransactionHistory.Title.Burn">ใช้แต้ม</string>
+    <string name="MyProfile.TransactionHistory.Title.Date">เดือน</string>
+    <string name="MyProfile.TransactionHistory.Title.Earn">รับแต้ม</string>
+    <string name="MyRewards.Voucher.BR">\n</string>
+    <string name="Onboarding.Action.getStarted">เริ่มเลย</string>
+    <string name="Onboarding.Action.nextPage">ถัดไป</string>
+    <string name="Onboarding.Action.skip">ข้าม</string>
+    <string name="Onboarding.ScreenOne.body">ติดตามโปรโมชั่นใหม่จาก เทสโก้ โลตัส ได้ทุกเวลา</string>
+    <string name="Onboarding.ScreenOne.title">โปรโมชั่น</string>
+    <string name="Onboarding.ScreenThree.body">เช็คแต้ม และแลกรับสิทธิพิเศษได้ทุกที่ ทุกเวลา</string>
+    <string name="Onboarding.ScreenThree.title">คูปองส่วนลดร้านค้าสุดพิเศษ</string>
+    <string name="Onboarding.ScreenTwo.body">เข้าถึงและจัดการข้อมูลส่วนตัวของคุณได้ง่ายและปลอดภัย</string>
+    <string name="Onboarding.ScreenTwo.title">ข้อมูลของฉัน</string>
+    <string name="PIN.Error.Button1">รับทราบ</string>
+    <string name="PIN.Error.Button2">ลืมรหัส?</string>
+    <string name="PIN.Error.Message.MaxLimit">ลืมรหัส? กรุณาลองรีเซ็ตหมายเลขรหัสของคุณ</string>
+    <string name="PIN.Error.Title">อุ๊บส์! กรุณาลองอีกครั้งในภายหลังค่ะ</string>
+    <string name="Product.SalePrice.Currency">%s THB</string>
+    <string name="Promotions.Date">หมดเขต</string>
+    <string name="Promotions.Empty">โปรโมชั่นใหม่ๆ กำลังจะมาเร็วๆ นี้</string>
+    <string name="Promotions.Filters">ตัวกรอง</string>
+    <string name="Promotions.Filters.Button1">ใช้ตัวกรอง</string>
+    <string name="Promotions.Filters.Button2">ตั้งค่าใหม่</string>
+    <string name="Promotions.Filters.Options.Catalog">โปรโมชั่น โลตัส เอ็กเพรส</string>
+    <string name="Promotions.Filters.Options.Event">โปรแรงประจำสัปดาห์</string>
+    <string name="Promotions.Filters.SubTitle">ค้นหา (ต้องมีตัวกรองอย่างน้อย 1 รายการ)</string>
+    <string name="Promotions.FullScreen">เปิดเต็มหน้าจอ</string>
+    <string name="Promotions.Share">แชร์</string>
+    <string name="Promotions.Sortby">เรียงตาม</string>
+    <string name="Promotions.Sortby.Options.Alphabets.Ascending">พยัญชนะ ก-ฮ</string>
+    <string name="Promotions.Sortby.Options.Alphabets.Descending">พยัญชนะ ฮ-ก</string>
+    <string name="Promotions.Sortby.Options.DateOrder.Newest">วันที่ล่าสุดไปเก่าสุด</string>
+    <string name="Promotions.Sortby.Options.DateOrder.Oldest">วันที่เก่าสุดไปล่าสุด</string>
+    <string name="Promotions.Title">โปรโมชั่น</string>
+    <string name="Register.Failed.backToRegistration">กลับไปที่หน้าลงทะเบียน</string>
+    <string name="Register.Failed.line1">มีบางอย่างผิดพลาด เราไม่สามารถสร้างบัญชีให้คุณได้</string>
+    <string name="Register.Failed.line2">กรุณาลองใหม่อีกครั้งค่ะ เพื่อไม่ให้พลาดสิทธิพิเศษต่างๆจาก เทสโก้ โลตัส คลับการ์ด</string>
+    <string name="Register.Failed.notNow">ปิด</string>
+    <string name="Register.Failed.title">ผิดพลาด</string>
+    <string name="Register.Success.line1">เราได้สร้างบัญชีให้คุณเรียบร้อยแล้ว</string>
+    <string name="Register.Success.line2">รับสิทธิพิเศษมากมายจาก เทสโก้ โลตัส คลับการ์ดได้เลยค่ะ</string>
+    <string name="Register.Success.login">เข้าสู่ระบบ</string>
+    <string name="Register.Success.notNow">ยังไม่ใช่ตอนนี้</string>
+    <string name="Register.Success.title">สำเร็จ</string>
+    <string name="Register.Updated.line1">บัญชีนี้มีผู้ใช้แล้วค่ะ</string>
+    <string name="Register.Updated.line2">ลองเข้าสู่ระบบอีกครั้ง เพื่อรับสิทธิพิเศษจาก เทสโก้ โลตัส คลับการ์ดค่ะ</string>
+    <string name="Register.Updated.title">ยินดีต้อนรับค่ะ!</string>
+    <string name="Register.login">เข้าสู่ระบบ</string>
+    <string name="Share.Message">รับสิทธิ์พิเศษเลยทันที เพียงดาวน์โหลดแอปพลิเคชัน</string>
+    <string name="Shopping.Add.Cart">Add to Cart</string>
+    <string name="Shopping.Header.Banner">Banner</string>
+    <string name="Shopping.Header.Categories">Categories</string>
+    <string name="Shopping.Header.Coupon">Coupon</string>
+    <string name="Shopping.Header.FeaturedBrands">Featured Brands</string>
+    <string name="Shopping.Header.PromotionItems">Promotion Items</string>
+    <string name="Shopping.Header.RecentlyBought">Recently Bought</string>
+    <string name="Shopping.Header.Seasonal">Seasonal</string>
+    <string name="Shopping.Header.Seasonal.Product">Seasonal Product</string>
+    <string name="Shopping.Header.WeeklyBrand">Weekly Brand</string>
+    <string formatted="false" name="Shopping.Price.Display">฿ %s</string>
+    <string formatted="false" name="Shopping.Price.Each">฿ %s/Each</string>
+    <string name="Shopping.Search">Search</string>
+    <string name="Shopping.Search.PlaceHolder">What are you looking for?</string>
+    <string name="Shopping.Shop.Now">Shop Now</string>
+    <string name="Shopping.ShopOnline.GroupTitle">Shop Online Now</string>
+    <string name="StatementPreferences.StatementVoucher">จัดการแต้ม</string>
+    <string name="StatementPreferences.StatementVoucher.Description">หากคุณต้องการให้เราตัดแต้มจากคลับการ์ดของคุณ และแลกเป็นคูปองเงินสด ทุกๆ 3 เดือน
+กรุณาเปิดเพื่อใช้งานและเลือกช่องทางการรับคูปองของคุณ หรือปิด เพื่อที่คุณจะสามารถจัดการแต้มด้วยตนเองได้ทุกเมื่อที่คุณต้องการ</string>
+    <string name="StatementPreferences.StatementVoucher.Description.OptIn">ปิด เพื่อจัดการคะแนนของคุณด้วยตนเองในแอปพลิเคชันได้ทุกที่ ทุกเวลา (ไม่ต้องรอรอบตัดแต้ม เพื่อรับคูปองอีกต่อไป)</string>
+    <string name="StatementPreferences.StatementVoucher.Description.OptOut">เปิด เพื่อให้เราตัดแต้มจากคลับการ์ดของคุณโดยอัตโนมัติ ทุกๆ 3 เดือน</string>
+    <string name="StatementPreferences.StatementVoucher.Digital">คูปองดิจิทัล</string>
+    <string name="StatementPreferences.StatementVoucher.Edit">จัดการแต้ม*</string>
+    <string name="StatementPreferences.StatementVoucher.On.Description">หากคุณต้องการให้เราตัดแต้มจากคลับการ์ดของคุณ และแลกเป็นคูปองเงินสด ทุกๆ 3 เดือน
+กรุณาเปิดเพื่อใช้งานและเลือกช่องทางการรับคูปองของคุณ หรือปิด เพื่อที่คุณจะสามารถจัดการแต้มด้วยตนเองได้ทุกเมื่อที่คุณต้องการ</string>
+    <string name="StatementPreferences.StatementVoucher.On.Options">จัดการแต้มอัตโนมัติ</string>
+    <string name="StatementPreferences.StatementVoucher.Options">ช่องทางการรับคูปองของฉัน:</string>
+    <string name="StatementPreferences.StatementVoucher.Paper">จดหมาย</string>
+    <string name="StatementPreferences.StatementVoucher.StatementOptions.Edit">คุณต้องการรับจดหมายโลตัสผ่านช่องทางใด?</string>
+    <string name="StatementPreferences.StatementVoucher.StatementType">ช่องทางการรับคูปอง</string>
+    <string name="StatementPreferences.StatementVoucher.StatementType.Digital">ดิจิทัล</string>
+    <string name="StatementPreferences.StatementVoucher.StatementType.Paper">จดหมาย</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"กลับ"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"เสร็จ"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ปิด"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"เปิด"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"ลบ"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"เมนู+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ล้างคำค้นหา"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"คำค้นหา"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ส่งคำค้นหา"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"เปิดใช้"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานจนกว่าคุณจะเปิดใช้บริการ Google Play"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"เปิดใช้บริการ Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"ติดตั้ง"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานหากไม่มีบริการ Google Play ซี่งไม่มีในอุปกรณ์ของคุณ"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"ติดตั้งบริการ Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"ความพร้อมใช้งานของบริการ Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"ข้อผิดพลาดของบริการ Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> มีปัญหาเกี่ยวกับบริการของ Google Play โปรดลองอีกครั้ง"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งอุปกรณ์ของคุณไม่สนับสนุน"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"อัปเดต"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานจนกว่าคุณจะอัปเดตบริการ Google Play"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"อัปเดตบริการ Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งกำลังอัปเดตอยู่ในขณะนี้"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"จำเป็นต้องใช้บริการ Google Play เวอร์ชันใหม่ ซึ่งจะอัปเดตอัตโนมัติในอีกไม่ช้า"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"เปิดบนโทรศัพท์"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ลงชื่อเข้าใช้"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"ลงชื่อเข้าใช้ด้วย Google"</string>
+    <string msgid="3209159573327985035" name="copy">"คัดลอก"</string>
+    <string name="country_code_my">+60</string>
+    <string name="country_code_sg">+65</string>
+    <string name="country_code_th">+66</string>
+    <string name="default_pref">default_pref</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"ขั้นสูง"</string>
+    <string name="hint_circle">••••••</string>
+    <string name="hint_id_card">x-xxxx-xxxxx-xx-x</string>
+    <string name="hint_mobile_number_my">1x xxxx xxxx</string>
+    <string name="hint_mobile_number_sg">xxxx xxxxx</string>
+    <string name="hint_mobile_number_th">0xx-xxx-xxxx</string>
+    <string name="lang">th</string>
+    <string name="mask_id_card">#-####-#####-##-#</string>
+    <string name="mask_mobile_number_my">## #### ####</string>
+    <string name="mask_mobile_number_sg">#### #####</string>
+    <string name="mask_mobile_number_th">###-###-####</string>
+    <string name="mask_otp">•</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"นำทางขึ้น"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"เปิดลิ้นชักการนำทาง"</string>
+    <string msgid="478774118347071097" name="not_set">"ไม่ได้ตั้งค่า"</string>
+    <string msgid="7961817945132860002" name="preference_copied">"คัดลอก \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ไปยังคลิปบอร์ดแล้ว"</string>
+    <string name="resend">Resend %ss</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"ค้นหา"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="store_link">https://play.google.com/store/apps/details?id=%s</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g> <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ปิด"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"เปิด"</string>
+</resources>

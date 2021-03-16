@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_setpin"
+    app:startDestination="@id/pinFragment">
+    <fragment
+        android:id="@+id/pinFragment"
+        android:name="com.lotuss.oneapp.login.pin.PinFragment">
+        <argument
+            android:name="amplifyToken"
+            app:argType="string" />
+        <argument
+            android:name="nationID"
+            app:argType="string"
+            android:defaultValue="" />
+
+        <argument
+            android:name="isForgotPin"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="updateCurrent"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_pinFragment_to_confirmPinFragment"
+            app:destination="@id/confirmPinFragment">
+            <argument
+                android:name="updateCurrent"
+                app:argType="string"
+                android:defaultValue="" />
+        </action>
+        <action
+            android:id="@+id/action_pinFragment_to_mobileNumberFragment"
+            app:popUpTo="@id/mobileNumberFragment" />
+        <action
+            android:id="@+id/action_pinFragment_to_verifyUserFragment"
+            app:popUpTo="@id/verifyUserFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/confirmPinFragment"
+        android:name="com.lotuss.oneapp.login.confirm.ConfirmPinFragment">
+        <argument
+            android:name="pin"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="amplifyToken"
+            app:argType="string" />
+        <argument
+            android:name="nationID"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="isForgotPin"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="updateCurrent"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_confirmPinFragment_to_biometricFragment"
+            app:destination="@id/biometricFragment" />
+
+        <action
+            android:id="@+id/action_confirmPinFragment_to_forgotPinFragment"
+            app:popUpTo="@id/verifyUserFragment"></action>
+
+        <action
+            android:id="@+id/action_confirmPinFragment_to_verifyUserFragment"
+            app:popUpTo="@id/verifyUserFragment"></action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/biometricFragment"
+        android:name="com.lotuss.oneapp.login.biometric.BiometricFragment">
+        <argument
+            android:name="updateCurrent"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_biometricFragment_to_hostFragment"
+            app:destination="@id/nav_host" />
+
+        <action
+            android:id="@+id/action_biometricFragment_to_couponDetailFragment"
+            app:popUpTo="@id/couponDetailFragment" />
+    </fragment>
+
+</navigation>

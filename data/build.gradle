@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+apply from: '../android_commons.gradle'
+apply plugin: 'kotlin-kapt'
+
+android {
+    testOptions {
+        unitTests {
+            returnDefaultValues = true
+            includeAndroidResources = true
+        }
+    }
+}
+
+dependencies {
+    implementation project(Modules.domain)
+
+    implementation Deps.retrofit
+    implementation Deps.retrofitGsonConverter
+    implementation Deps.okhttpLoggingInterceptor
+    implementation Deps.koin
+    implementation Deps.coroutinesCore
+    implementation Deps.coroutinesAndroid
+    implementation Deps.lifecycleExtensions
+    implementation Deps.coreKtx
+
+    testImplementation TestDeps.junit
+    testImplementation TestDeps.koin
+    testImplementation TestDeps.mockWebServer
+    testImplementation TestDeps.mockk
+    testImplementation TestDeps.coroutinesTest
+}

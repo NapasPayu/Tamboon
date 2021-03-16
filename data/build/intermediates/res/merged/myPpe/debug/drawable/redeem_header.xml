@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="?attr/actionBarSize" />
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    <item
+        android:bottom="30dp"
+        android:drawable="@drawable/ic_paper_cut_triangle"
+        android:gravity="top"
+        android:top="-10dp"></item>
+</layer-list>

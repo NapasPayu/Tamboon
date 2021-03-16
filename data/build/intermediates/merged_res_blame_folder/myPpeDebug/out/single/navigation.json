@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_setpin.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_setpin.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_product_list.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_product_list.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_auth.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_auth.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_verifyuser.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_verifyuser.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_shopping_search.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_shopping_search.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_home.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_home.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_promotion.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_promotion.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_shopping.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_shopping.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_promotion_event.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_promotion_event.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_coupon.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_coupon.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_coupon_redeemdetail.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_coupon_redeemdetail.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_promotion_catalogue.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_promotion_catalogue.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_profile.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_profile.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_my_rewards.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_my_rewards.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_host.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_host.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_registration.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_registration.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_cart.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_cart.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_host_bottom_bar.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_host_bottom_bar.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_main.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_main.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_coupon_detail.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_coupon_detail.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_boarding.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_boarding.xml"
+    },
+    {
+        "merged": "/Users/Napas/Desktop/Projects/Android-OneApp/data/build/intermediates/res/merged/myPpe/debug/navigation/nav_appsetting.xml",
+        "source": "/Users/Napas/Desktop/Projects/Android-OneApp/navigation/build/intermediates/packaged_res/myPpe/debug/navigation/nav_appsetting.xml"
+    }
+]

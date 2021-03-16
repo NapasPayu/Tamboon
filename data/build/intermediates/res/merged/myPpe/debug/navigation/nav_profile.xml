@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_profile"
+    app:startDestination="@+id/myProfileFragment">
+    <argument
+        android:name="name"
+        app:argType="string"
+        android:defaultValue=""/>
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.lotuss.oneapp.profile.MyProfileFragment">
+        <action
+            android:id="@+id/action_myProfileFragment_to_myTransactionHistoryFragment"
+            app:destination="@+id/myTransactionHistoryFragment" />
+
+        <action
+            android:id="@+id/action_myProfileFragment_to_verifyUserFragment"
+            app:destination="@+id/nav_verifyuser">
+            <argument
+                android:name="actionName"
+                app:argType="string"
+                android:defaultValue="" />
+        </action>
+
+        <action
+            android:id="@+id/action_myProfileFragment_to_appSettingFragment"
+            app:destination="@+id/nav_appsetting" />
+
+        <action
+            android:id="@+id/action_myProfileFragment_to_Logout"
+            app:destination="@+id/HostFragment" />
+
+        <action
+            android:id="@+id/action_myProfileFragment_to_memberDetailFragment"
+            app:destination="@+id/memberDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/myTransactionHistoryFragment"
+        android:name="com.lotuss.oneapp.profile.transaction.TransactionHistoryFragment">
+
+        <action
+            android:id="@+id/action_myTransactionHistoryFragment_to_myReward"
+            app:destination="@+id/nav_my_rewards" />
+
+        <action
+            android:id="@+id/action_myTransactionHistoryFragment_to_VerifyUdserFrag"
+            app:destination="@+id/nav_verifyuser">
+            <argument
+                android:name="actionName"
+                app:argType="string"
+                android:defaultValue="" />
+        </action>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/memberDetailFragment"
+        android:name="com.lotuss.oneapp.profile.memberdetail.MemberDetailFragment">
+        <action
+            android:id="@+id/action_memberDetailFragment_to_memberDetailEditFragment"
+            app:destination="@+id/memberDetailEditFragment"></action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/memberDetailEditFragment"
+        android:name="com.lotuss.oneapp.profile.memberdetail.MemberDetailEditFragment">
+        <argument
+            android:name="memberDetail"
+            app:argType="com.lotuss.oneapp.domain.model.MemberDetail" />
+
+        <action
+            android:id="@+id/action_memberDetailEditFragment_to_verifyUserFragment"
+            app:destination="@+id/nav_verifyuser">
+            <argument
+                android:name="actionName"
+                app:argType="string"
+                android:defaultValue="" />
+        </action>
+
+    </fragment>
+
+</navigation>
