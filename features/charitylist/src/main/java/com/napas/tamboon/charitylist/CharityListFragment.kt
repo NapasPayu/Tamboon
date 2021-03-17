@@ -4,23 +4,18 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.core.view.isVisible
-import androidx.fragment.app.Fragment
-import org.koin.androidx.viewmodel.ext.android.viewModel
+import androidx.navigation.fragment.findNavController
 import com.napas.tamboon.charitylist.databinding.FragmentCharityListBinding
+import com.napas.tamboon.commonui.base.BaseFragment
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class CharityListFragment : Fragment() {
+class CharityListFragment : BaseFragment() {
 
     private val viewModel: CharityListViewModel by viewModel()
     private lateinit var binding: FragmentCharityListBinding
     private val adapter by lazy {
         CharityListAdapter { charity ->
-            Toast.makeText(
-                context,
-                charity.name,
-                Toast.LENGTH_SHORT
-            ).show()
+            findNavController().navigate(CharityListFragmentDirections.actionCharityListFragmentToDonationFragment())
         }
     }
 
@@ -37,18 +32,12 @@ class CharityListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initView()
-        initViewModel()
-    }
 
-    private fun initView() {
         binding.recyclerView.adapter = adapter
-    }
 
-    private fun initViewModel() {
-        viewModel.loadingEvent.observeSingle(viewLifecycleOwner, {
+        viewModel.alertEvent.observeSingle(viewLifecycleOwner, {
             it?.let {
-                binding.progress.isVisible = it
+                showAlertDialog(it)
             }
         })
 
