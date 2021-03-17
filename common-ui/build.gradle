@@ -1,6 +1,21 @@
 apply plugin: 'com.android.library'
 apply from: '../android_commons.gradle'
+apply plugin: 'kotlin-kapt'
+
+android {
+    buildFeatures {
+        dataBinding = true
+    }
+}
+
+kapt {
+    correctErrorTypes = true
+}
+
 
 dependencies {
+    implementation project(Modules.commonRes)
+    implementation Deps.material
     implementation Deps.lifecycleExtensions
+    implementation Deps.coreKtx
 }
