@@ -6,8 +6,8 @@ import com.napas.tamboon.commonui.model.AlertEvent
 import com.napas.tamboon.commonui.util.SingleLiveEvent
 
 abstract class BaseViewModel : ViewModel() {
-    private val loadingEvent by lazy { SingleLiveEvent<Boolean>() }
-    private val alertEvent by lazy { SingleLiveEvent<AlertEvent>() }
+    val loadingEvent by lazy { SingleLiveEvent<Boolean>() }
+    val alertEvent by lazy { SingleLiveEvent<AlertEvent>() }
 
     protected fun alert(
         title: String? = null,

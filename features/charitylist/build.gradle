@@ -13,5 +13,5 @@ kapt {
 }
 
 dependencies {
-
+    implementation(Deps.coil)
 }

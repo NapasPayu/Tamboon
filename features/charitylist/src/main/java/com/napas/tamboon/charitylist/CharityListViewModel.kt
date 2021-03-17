@@ -15,23 +15,21 @@ class CharityListViewModel(
     val charities = MutableLiveData<List<Charity>>()
 
     init {
+        showLoading()
         viewModelScope.launch {
-            showLoading()
-            viewModelScope.launch {
-                when (val result = getCharitiesUseCase()) {
-                    is ResultWrapper.Success -> {
-                        charities.value = result.data
-                    }
-                    is ResultWrapper.HttpError -> {
-                        alert(titleRes = R.string.error_title, message = result.result.message)
-                    }
-                    is ResultWrapper.GenericError -> {
-                        alert(titleRes = R.string.error_title, messageRes = R.string.error_msg_generic)
-                    }
+            when (val result = getCharitiesUseCase()) {
+                is ResultWrapper.Success -> {
+                    charities.value = result.data
                 }
-
-                hideLoading()
+                is ResultWrapper.HttpError -> {
+                    alert(titleRes = R.string.error_title, message = result.result.message)
+                }
+                is ResultWrapper.GenericError -> {
+                    alert(titleRes = R.string.error_title, messageRes = R.string.error_msg_generic)
+                }
             }
+
+            hideLoading()
         }
     }
 }
