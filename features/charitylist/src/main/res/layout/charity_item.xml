@@ -37,7 +37,6 @@
                 android:text="@{charity.name}"
                 android:textColor="@color/black"
                 android:textSize="@dimen/text_medium"
-                android:textStyle="bold"
                 app:layout_constraintTop_toBottomOf="@+id/image"
                 tools:text="@tools:sample/lorem" />
 

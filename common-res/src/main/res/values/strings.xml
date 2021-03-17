@@ -8,5 +8,5 @@
     <string name="complete">Complete</string>
     <string name="credit_card_number">Credit card number</string>
     <string name="amount">Amount</string>
-
+    <string name="donation_msg_complete">Your transaction is complete</string>
 </resources>

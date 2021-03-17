@@ -21,7 +21,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/credit_card_number"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:counterEnabled="true"
+            app:counterMaxLength="16">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_text_credit_card"

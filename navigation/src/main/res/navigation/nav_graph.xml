@@ -17,5 +17,16 @@
     <fragment
         android:id="@+id/donationFragment"
         android:name="com.napas.tamboon.donation.DonationFragment"
-        android:label="@string/donation" />
+        android:label="@string/donation">
+
+        <action
+            android:id="@+id/action_donationFragment_to_donationCompleteFragment"
+            app:destination="@id/donationCompleteFragment"
+            app:popUpTo="@id/charityListFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/donationCompleteFragment"
+        android:name="com.napas.tamboon.donation.DonationCompleteFragment"
+        android:label="@string/complete" />
 </navigation>

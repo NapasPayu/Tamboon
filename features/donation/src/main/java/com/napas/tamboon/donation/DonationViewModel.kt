@@ -4,6 +4,7 @@ import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.napas.tamboon.commonui.base.BaseViewModel
+import com.napas.tamboon.commonui.util.SingleLiveEvent
 import com.napas.tamboon.domain.model.DonationCreation
 import com.napas.tamboon.domain.model.Result
 import com.napas.tamboon.domain.model.ResultWrapper
@@ -17,7 +18,7 @@ class DonationViewModel(
 
     val creditCardNumber = MutableLiveData<String>()
     val amount = MutableLiveData<String>()
-    val donationResult = MutableLiveData<Result>()
+    val donationResult = SingleLiveEvent<Result>()
     val donationValidation = MediatorLiveData<DonationValidation>()
 
     init {
