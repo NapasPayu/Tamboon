@@ -9,6 +9,10 @@ android {
         versionCode Releases.versionCode
         versionName Releases.versionName
     }
+
+    buildFeatures {
+        dataBinding = true
+    }
 }
 
 dependencies {
@@ -23,4 +27,6 @@ dependencies {
     implementation Deps.appcompat
     implementation Deps.navigationUi
     implementation Deps.navigationFragment
+    implementation Deps.coil
+    implementation Deps.coilGif
 }
