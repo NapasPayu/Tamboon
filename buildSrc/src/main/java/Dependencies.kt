@@ -11,6 +11,7 @@ object Modules {
     const val commonRes = ":common-res"
     const val commonTest = ":common-test"
     const val featureCharityList = ":features:charitylist"
+    const val featureDonation = ":features:donation"
 }
 
 object Releases {

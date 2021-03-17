@@ -7,6 +7,15 @@
     <fragment
         android:id="@+id/charityListFragment"
         android:name="com.napas.tamboon.charitylist.CharityListFragment"
-        android:label="@string/app_name" />
+        android:label="@string/app_name">
 
+        <action
+            android:id="@+id/action_charityListFragment_to_donationFragment"
+            app:destination="@id/donationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/donationFragment"
+        android:name="com.napas.tamboon.donation.DonationFragment"
+        android:label="@string/donation" />
 </navigation>

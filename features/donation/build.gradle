@@ -1,0 +1,17 @@
+apply from: '../../feature_dependencies.gradle'
+apply plugin: "androidx.navigation.safeargs.kotlin"
+apply plugin: 'kotlin-kapt'
+
+android {
+    defaultConfig {
+        buildConfigField "String", "DONATION_NAME", '"John Doe"'
+        buildConfigField "String", "DONATION_TOKEN", '"tokn_test_deadbeef"'
+    }
+    buildFeatures {
+        dataBinding = true
+    }
+}
+
+kapt {
+    correctErrorTypes = true
+}

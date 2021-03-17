@@ -22,6 +22,7 @@ dependencies {
     implementation project(Modules.commonRes)
     implementation project(Modules.commonUi)
     implementation project(Modules.featureCharityList)
+    implementation project(Modules.featureDonation)
 
     implementation Deps.koin
     implementation Deps.appcompat
