@@ -1,9 +1,11 @@
 # Tamboon
 A sample of Android app showing clean architecture + modularization. 
-This includes 3 screens:
+This app includes 3 screens:
 - Charity list
 - Donation
 - Donation complete
+
+API: https://virtserver.swaggerhub.com/chakritw/tamboon-api/1.0.0
 
 ## Summary
 - Overall Architecture: MVVM + Clean Architecture + Modularization
