@@ -5,7 +5,7 @@ This app includes 3 screens:
 - Donation
 - Donation complete
 
-API: https://virtserver.swaggerhub.com/chakritw/tamboon-api/1.0.0
+API: https://app.swaggerhub.com/apis/chakritw/tamboon-api/1.0.0
 
 ## Summary
 - Overall Architecture: MVVM + Clean Architecture + Modularization
