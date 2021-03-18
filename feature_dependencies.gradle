@@ -17,7 +17,7 @@ dependencies {
     implementation Deps.navigationUi
     implementation Deps.navigationFragment
 
-//    testImplementation project(Modules.commonTest)
+    testImplementation project(Modules.commonTest)
     testImplementation TestDeps.junit
     testImplementation TestDeps.mockk
     testImplementation TestDeps.coroutinesTest
