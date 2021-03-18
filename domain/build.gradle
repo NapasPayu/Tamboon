@@ -4,5 +4,10 @@ apply plugin: 'kotlin-parcelize'
 
 dependencies {
     implementation Deps.koin
+
+    testImplementation project(Modules.commonTest)
     testImplementation TestDeps.junit
+    testImplementation TestDeps.mockk
+    testImplementation TestDeps.coroutinesTest
+    testImplementation TestDeps.archCoreTest
 }
