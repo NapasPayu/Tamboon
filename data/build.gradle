@@ -5,6 +5,7 @@ apply plugin: 'kotlin-kapt'
 android {
     defaultConfig {
         buildConfigField "String", "BASE_API_URL", '"https://virtserver.swaggerhub.com/chakritw/tamboon-api/1.0.0/"'
+        buildConfigField "String", "OMISE_PUBLIC_KEY", '"pkey_test_5n4qojmbv3xk8cv986y"'
     }
     testOptions {
         unitTests {
@@ -25,6 +26,7 @@ dependencies {
     implementation Deps.coroutinesAndroid
     implementation Deps.lifecycleExtensions
     implementation Deps.coreKtx
+    implementation Deps.omise
 
     testImplementation TestDeps.junit
     testImplementation TestDeps.koin

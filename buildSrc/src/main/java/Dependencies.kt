@@ -25,7 +25,6 @@ object Releases {
 object Versions {
     const val androidGradle = "4.1.2"
     const val kotlin = "1.4.21"
-    const val google = "4.3.3"
     const val material = "1.2.0"
     const val coroutines = "1.4.2"
     const val okhttp = "4.9.0"
@@ -43,6 +42,7 @@ object Versions {
     const val mockK = "1.9.3"
     const val test = "1.2.0"
     const val archCore = "2.1.0"
+    const val omise = "3.2.1"
 }
 
 object Deps {
@@ -89,6 +89,9 @@ object Deps {
     // log
     const val okhttpLoggingInterceptor =
         "com.squareup.okhttp3:logging-interceptor:${Versions.okhttp}"
+
+    // payment
+    const val omise = "co.omise:omise-android:${Versions.omise}"
 }
 
 object TestDeps {

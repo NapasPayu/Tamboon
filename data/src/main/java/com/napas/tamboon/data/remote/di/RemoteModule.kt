@@ -1,5 +1,6 @@
 package com.napas.tamboon.data.remote.di
 
+import co.omise.android.api.Client
 import com.napas.tamboon.data.BuildConfig
 import com.napas.tamboon.data.remote.CharityService
 import com.napas.tamboon.data.remote.DonationService
@@ -27,4 +28,5 @@ fun createRemoteModule(baseApiUrl: String = BuildConfig.BASE_API_URL) = module {
     }
     single { get<Retrofit>().create(CharityService::class.java) }
     single { get<Retrofit>().create(DonationService::class.java) }
+    single { Client(BuildConfig.OMISE_PUBLIC_KEY) }
 }
