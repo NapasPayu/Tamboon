@@ -59,12 +59,14 @@ class DonationFragment : BaseFragment() {
         with(binding.editTextExpiryDate) {
             setOnAfterTextChangeListener {
                 viewModel.onExpiryDateChanged(isValid)
+                binding.textInputLayoutExpiryDate.error = invalidMessage.takeIf { !isValid }
             }
         }
 
         with(binding.editTextSecurityCode) {
             setOnAfterTextChangeListener {
                 viewModel.onSecurityCodeChanged(isValid)
+                binding.textInputLayoutSecurityCode.error = invalidMessage.takeIf { !isValid }
             }
         }
 
